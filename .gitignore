@@ -218,3 +218,17 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Secretos y configuración local
+.env
+kubeconfig
+
+# Datos generados y modelos
+chroma_db/
+*.gguf
+
+# Apuntes privados (no subir material del centro)
+data/apuntes_privados/
+
+# Entornos
+.venv/
